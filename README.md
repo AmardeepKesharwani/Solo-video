@@ -1,5 +1,5 @@
-# solo_video
-this is a sort video app
+# Solo Video
+Solo Video is a short video app that allows you to watch and share captivating videos with your friends and family. With our app, you can explore a wide range of short videos that cater to your interests
 
 ## View App
-[https://amardeepkesharwani.github.io/solo_video](https://amardeepkesharwani.github.io/solo_video)
+[https://solo-video.onrender.com/](https://solo-video.onrender.com/)
