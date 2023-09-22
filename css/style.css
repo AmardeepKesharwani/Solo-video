@@ -1,5 +1,5 @@
 :root {
-  --red: #f44559;
+  --red: #fc7d34;
 }
 * {
   margin: 0;
@@ -285,7 +285,7 @@ footer button .material-icons {
   text-align: center;
   padding: 40px 20px 20px;
 }
-.sec1 svg {
+.sec1 img {
   animation: fadeIn 500ms ease 0.2s;
   animation-fill-mode: both;
 }
@@ -341,8 +341,14 @@ footer button .material-icons {
   font-size: 14px;
   background: #333;
   transition: 300ms ease;
+  cursor: pointer;
 }
 .tags span.select {
   background: var(--red);
   border-color: #fff;
+}
+
+
+#fullpage {
+  display: none;
 }
