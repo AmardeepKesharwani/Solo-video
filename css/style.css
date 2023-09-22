@@ -85,7 +85,7 @@ video {
   transition: 300ms ease;
 }
 .like.liked > i {
-  color: var(--red);
+  color: #f81313;
   animation: zoomIn 600ms ease;
 }
 @keyframes zoomIn {
