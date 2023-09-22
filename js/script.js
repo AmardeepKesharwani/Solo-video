@@ -310,17 +310,22 @@ $(document).ready(function () {
       text: "Best short videos",
       url: "https://amardeepkesharwani.github.io/solo_video",
     };
-    if (navigator.canShare && navigator.canShare(shareData)) {
-      navigator.canShare(shareData);
-      return;
-    }
 
     if (navigator.share) {
       navigator
         .share(shareData)
         .then(() => console.log("Successful share"))
         .catch((error) => console.log("Error sharing", error));
+        return;
     }
+
+
+    if (navigator.canShare && navigator.canShare(shareData)) {
+      navigator.canShare(shareData);
+      return;
+    }
+
+    
   });
   $("#comment-btn").click(function () {
     let com = $("#comment").val();
