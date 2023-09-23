@@ -385,7 +385,7 @@ function addVideo(video) {
        <p>For You</p><span></span><p>Following</p>
        </div>
        <div class="action">
-       <a href="https://www.sololearn.com/Profile/9151475/?ref=app" class="follow-btn" >
+       <a href="https://www.linkedin.com/in/amardeepkesharwani" target="_blank" class="follow-btn" >
        <img src="https://picsum.photos/100/100?random=${getRandomNo()}" ></a>
         <button class="like" ><i class="material-icons" >favorite</i>${
           video.like
